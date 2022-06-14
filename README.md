@@ -1,7 +1,7 @@
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![Actions Status](https://github.com/raz0red/wii-mednafen/workflows/Build/badge.svg)](https://github.com/raz0red/wii-mednafen/actions)
 
-# WiiMednafen v0.2-pre release
+# WiiMednafen v0.3-SNAPSHOT release
 
 Ported by raz0red
 
@@ -22,18 +22,18 @@ WiiMednafen is a partial port of the Mednafen emulator.
 
 Emulators supported:
 
- * GameBoy/GameBoy Color
- * GameBoy Advance
- * Game Gear
- * Lynx
- * MegaDrive/Genesis
+ * Game Boy / Game Boy Color
+ * Game Boy Advance
+ * SEGA Game Gear
+ * Atari Lynx
+ * SEGA Mega Drive / SEGA Genesis
  * Nintendo Entertainment System (NES)
- * Neo Geo Pocket
- * PC Engine (CD)/TurboGrafx 16 (CD)/SuperGrafx (Fast version)
- * PC-FX
- * Sega Master System
+ * SNK Neo Geo Pocket (Color)
+ * NEC PC Engine (CD)/TurboGrafx-16 (CD)/SuperGrafx (Fast version)
+ * NEC PC-FX
+ * SEGA Master System
  * Virtual Boy
- * WonderSwan
+ * WonderSwan (Color/Crystal)
 
 It should be noted that the Virtual Boy emulation included with this emulator
 is much improved over WiirtualBoy. Most games now run at 100% speed without

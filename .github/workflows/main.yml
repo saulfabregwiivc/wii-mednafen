@@ -14,8 +14,8 @@ jobs:
     - uses: actions/checkout@v1
       with:
         submodules: recursive
-    - run: docker run raz0red/devkitppc /opt/devkitpro/pacman/bin/pacman -Q
-    - run: docker run -v $(pwd):/source raz0red/devkitppc /source/dist.sh /tmp/wiimednafen
+    - run: docker run devkitpro/devkitppc /opt/devkitpro/pacman/bin/pacman -Q
+    - run: docker run -v $(pwd):/source devkitpro/devkitppc /source/dist.sh /tmp/wiimednafen
     - uses: actions/upload-artifact@v1
       with:
         name: dist
